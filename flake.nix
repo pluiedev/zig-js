@@ -35,7 +35,7 @@
       in rec {
         devShells.default = pkgs.mkShell {
           nativeBuildInputs = with pkgs; [
-            zigpkgs.master
+            zigpkgs."0.16.0"
             nodejs
             wabt
           ];
